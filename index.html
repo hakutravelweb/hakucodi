@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Haku Travel — Tours a Machu Picchu y Cusco</title>
+<meta name="description" content="Haku Travel - Operador local en Cusco. Reserva tours a Machu Picchu, Inca Jungle y más."/>
+<link rel="icon" href="/assets/favicon.svg">
+<link rel="stylesheet" href="/styles.css">
+<script defer src="/script.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="/assets/logo.svg" alt="Haku Travel" class="logo"/></a>
+    <nav class="main-nav">
+      <a href="index.html">Inicio</a>
+      <a href="tours.html">Tours</a>
+      <a href="about.html">Nosotros</a>
+      <a href="contact.html">Contacto</a>
+    </nav>
+    <a class="btn book" href="booking.html">Reservar</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div class="hero-left">
+      <h1>Explora Machu Picchu y los Andes con Haku Travel</h1>
+      <p class="lead">Tours verificados, guías locales y soporte 24/7. ¡Reserva hoy!</p>
+      <form class="search" onsubmit="event.preventDefault(); goToTours()">
+        <input id="qHome" class="input" placeholder="Busca: Inca Jungle, Machu Picchu, Rainbow..." />
+        <select id="catHome" class="input">
+          <option value="">Todas las categorías</option>
+          <option value="Aventura">Aventura</option>
+          <option value="Cultural">Cultural</option>
+          <option value="Full Day">Full Day</option>
+        </select>
+        <button class="btn">Buscar</button>
+      </form>
+      <div class="badges"><span class="badge">Pago seguro</span><span class="badge">Guías oficiales</span><span class="badge">Soporte 24/7</span></div>
+    </div>
+    <div class="hero-right"><img src="/assets/banner.jpg" alt="Machu Picchu" class="hero-img"></div>
+  </section>
+
+  <section class="card">
+    <h2>Destacados</h2>
+    <div id="featuredGrid" class="grid"></div>
+  </section>
+
+  <section class="card">
+    <h2>Cómo funciona</h2>
+    <ol>
+      <li>Busca el tour que te interesa</li>
+      <li>Contacta por formulario o WhatsApp</li>
+      <li>Confirma tu reserva y disfruta</li>
+    </ol>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="f-left">
+      <img src="/assets/logo.svg" class="logo-sm" alt="Haku Travel">
+      <p>Operador local en Cusco · Soporte 24/7</p>
+    </div>
+    <div class="f-right">
+      <p>Email: <a href="mailto:info@haku.travel.com">info@haku.travel.com</a></p>
+      <p>WhatsApp: <a href="https://wa.me/51984259412">+51 984 259 412</a></p>
+    </div>
+  </div>
+</footer>
+<a class="wa" href="https://wa.me/51984259412" target="_blank">WhatsApp</a>
+</body>
+</html>
